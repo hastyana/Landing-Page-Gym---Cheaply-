@@ -55,7 +55,7 @@
         {{-- Home --}}
         <header id="home" class="overflow-hidden h-auto">
             <div class="container mx-auto py-0 mt-10 flex justify-center">
-                <div class="w-auto h-auto bg-black-252525 rounded-[56px]">
+                <div class="w-full h-auto bg-black-252525 rounded-[56px]">
                     <img src={{ asset ('img/Ornament73.png') }} alt="ornament1" class="inset-0 md:w-full w-635 object-cover md:rounded-t-[56px] rounded-t-full">
                     <div class="flex justify-between items-center px-10 pt-10">   
                         <div class="flex">
@@ -68,7 +68,7 @@
                     </div>
                     <div class="flex justify-center items-center p-10 font-barlow">
                         <p class="3xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl font-medium text-white tracking-widest">
-                            with <span class="3xl:text-10xl xl:text-9xl lg:text-8xl md:text-7xl sm:text-6xl text-5xl font-bold uppercase text-green-d5ff40">fusionbody</span> gym
+                            with <span class="4xl:text-11xl 3xl:text-10xl xl:text-9xl lg:text-8xl md:text-7xl sm:text-6xl text-5xl font-bold uppercase text-green-d5ff40">fusionbody</span> gym
                         </p>       
                     </div>
                     <div class="grid md:grid-cols-2 grid-cols-1 px-10 md:pb-10">

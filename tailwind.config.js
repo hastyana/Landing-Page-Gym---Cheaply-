@@ -54,6 +54,9 @@ module.exports = {
         '5xl': '3.052rem',
         '10xl': ['10rem', {
           lineHeight: 1,
+        }],
+        '11xl': ['12rem', {
+          lineHeight: 1,
         }]
       },
       colors: {
