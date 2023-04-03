@@ -8,10 +8,53 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      backgroundColor: ['active'],
+      rotate: {
+        '45': '45deg'
+      },
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1440px',
+        '3xl': '1536px',
+        '4xl': '1920px'
+      },
+      spacing: {
+        '1px': '1px',
+        '2px': '2px',
+        '3px': '3px',
+        '4px': '4px',
+        '5px': '5px',
+        '6px': '6px',
+        '7px': '7px',
+        '8px': '8px',
+        '9px': '9px',
+        '10px': '10px',
+        '16px': '16px',
+        '20px': '20px',
+        '24px': '24px',
+        '32px': '32px',
+        '40px': '40px',
+        '48px': '48px',
+        '56px': '56px',
+        '64px': '64px',
+        '72px': '72px',
+        '80px': '80px',
+        '88px': '88px',
+        '96px': '96px'
+      },
       fontFamily: {
         barlow: "'Barlow', sans-serif",
         plusjakartasans: "font-family: 'Plus Jakarta Sans', sans-serif",
         opensans: "font-family: 'Open Sans', sans-serif"
+      },
+      fontSize: {
+        '5xl': '3.052rem',
+        '10xl': ['10rem', {
+          lineHeight: 1,
+        }]
       },
       colors: {
         'black-252525': '#252525',
@@ -42,7 +85,8 @@ module.exports = {
         '585': '585px',
         '687': '687px',
         '640': '640px',
-        '630': '640px'
+        '635': '635px',
+        '630': '630px'
       }
     },
   },
