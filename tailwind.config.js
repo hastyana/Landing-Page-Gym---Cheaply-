@@ -51,11 +51,19 @@ module.exports = {
         opensans: "font-family: 'Open Sans', sans-serif"
       },
       fontSize: {
-        '5xl': '3.052rem',
+        '5xl': ['3.052rem', {
+          lineHeight: 1,
+        }],
+        '7.5xl': ['5.000rem', {
+          lineHeight: 1,
+        }],
+        '9.5xl': ['9.500rem', {
+          lineHeight: 1,
+        }],
         '10xl': ['10rem', {
           lineHeight: 1,
         }],
-        '11xl': ['12rem', {
+        '11xl': ['12.500rem', {
           lineHeight: 1,
         }]
       },
@@ -77,6 +85,7 @@ module.exports = {
         '1019': '1019px',
         '925': '925px',
         '813': '813px',
+        '512': '512px',
         '485': '485px'
       },
       width: {
@@ -89,7 +98,9 @@ module.exports = {
         '687': '687px',
         '640': '640px',
         '635': '635px',
-        '630': '630px'
+        '630': '630px',
+        '960': '960px',
+        '1080': '1080px'
       }
     },
   },
