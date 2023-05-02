@@ -17,8 +17,8 @@
 
     <body class="bg-white">
         {{-- Navbar --}}
-        <nav id="navbar" class="flex flex-wrap py-0 px-10 items-center justify-between w-full h-32 bg-black-252525 mt-0 z-10 top-0 rounded-b-[48px]">
-            <div class="flex">
+        <nav id="navbar" class="flex flex-wrap py-0 px-10 items-center justify-between w-full h-auto bg-black-252525 mt-0 z-10 top-0 rounded-b-[48px]">
+            <div class="flex py-4">
                 <a href="#" class="flex items-center font-barlow text-green-d5ff40 no-underline">
                     <span class="self-center whitespace-nowrap text-4xl font-bold transition-colors duration-300 transform hover:text-white uppercase">fusionbody</span>
                 </a>
@@ -29,22 +29,22 @@
             <div id="menu" class="hidden w-full md:flex md:items-center md:w-auto">
                 <ul class="pt-4 text-lg text-white md:flex md:justify-between md:pt-0 font-barlow font-medium">
                     <li>
-                        <a href="#home" class="p-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-d5ff40 hover:text-underline active:text-green-d5ff40">
+                        <a href="#home" class="px-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-d5ff40 hover:text-underline active:text-green-d5ff40">
                             Home
                         </a>
                     </li>
                     <li>
-                        <a href="#about" class="p-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-d5ff40 hover:text-underline active:text-green-d5ff40">
+                        <a href="#about" class="px-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-d5ff40 hover:text-underline active:text-green-d5ff40">
                             About us
                         </a>
                     </li>
                     <li>
-                        <a href="#package" class="p-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-d5ff40 hover:text-underline active:text-green-d5ff40">
+                        <a href="#package" class="px-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-d5ff40 hover:text-underline active:text-green-d5ff40">
                             Features
                         </a>
                     </li>
                     <li>
-                        <a href="#contact" class="p-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-d5ff40 hover: hover:text-underline active:text-green-d5ff40">
+                        <a href="#contact" class="px-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-d5ff40 hover: hover:text-underline active:text-green-d5ff40">
                             Contact
                         </a>
                     </li>
@@ -53,39 +53,41 @@
         </nav>
 
         {{-- Home --}}
-        <header id="home" class="overflow-hidden h-auto">
-            <div class="container mx-auto py-0 mt-10 flex justify-center">
-                <div class="w-full h-auto bg-black-252525 rounded-[56px]">
-                    <img src={{ asset ('img/Ornament73.png') }} alt="ornament1" class="inset-0 md:w-full w-635 object-cover md:rounded-t-[56px] rounded-t-full">
-                    <div class="flex justify-between items-center px-10 pt-10">   
+        <header id="home" class="overflow-hidden h-screen">
+            <div class="container mx-auto py-0 2xl:mt-10 mt-5 flex justify-center">
+                <div class="w-auto bg-black-252525 rounded-[56px]">
+                    <img src={{ asset ('img/Ornament73.png') }} alt="ornament1" class="inset-0 md:w-full w-635 h-14 object-fill obje md:rounded-t-[56px] rounded-t-full">
+                    <div class="flex justify-between items-center px-10 pt-3">   
                         <div class="flex">
-                            <p class="font-barlow 4xl:text-8xl 3xl:text-7.5xl xl:text-7xl lg:text-5xl md:text-4xl sm:text-2xl text-xl font-medium capitalize text-white">transform your body</p>
+                            <p class="font-barlow 4xl:text-8xl 3xl:text-7.5xl md:text-4xl sm:text-2xl text-xl font-medium capitalize text-white">transform your body</p>
                         </div>   
                         <div class="flex">
-                            <img src={{ asset ('img/Ornament60.png') }} alt="ornament2" class="xl:p-2 4xl:w-96 4xl:h-32 2xl:w-72 2xl:h-32 xl:w-48 xl:h-24 lg:w-36 lg:h-16 p-1 md:w-24 md:h-12 sm:w-20 sm:h-10 w-16 h-8">
-                            <img src={{ asset ('img/Ornament60.png') }} alt="ornament2" class="xl:p-2 4xl:w-96 4xl:h-32 2xl:w-72 2xl:h-32 xl:w-48 xl:h-24 lg:w-36 lg:h-16 p-1 md:w-24 md:h-12 sm:w-20 sm:h-10 w-16 h-8">
+                            <img src={{ asset ('img/Ornament60.png') }} alt="ornament2" class="xl:p-2 2xl:w-48 2xl:h-24 p-1 md:w-24 md:h-12 sm:w-20 sm:h-10 w-16 h-8">
+                            <img src={{ asset ('img/Ornament60.png') }} alt="ornament2" class="xl:p-2 2xl:w-48 2xl:h-24 p-1 md:w-24 md:h-12 sm:w-20 sm:h-10 w-16 h-8">
                         </div>                  
                     </div>
-                    <div class="flex justify-center items-center py-10 px-10 font-barlow">
-                        <p class="4xl:text-7xl 3xl:text-6xl lg:text-5xl md:text-3xl sm:text-2xl text-xl font-medium text-white tracking-widest">
-                            with <span class="4xl:text-11xl 3xl:text-10xl 2xl:text-9.5xl xl:text-9xl lg:text-8xl md:text-7xl sm:text-6xl text-5xl font-bold uppercase text-green-d5ff40">fusionbody</span> gym
+                    <div class="flex justify-center items-center py-5 px-10 font-barlow">
+                        <p class="4xl:text-7xl 3xl:text-6xl lg:text-5xl md:text-3xl sm:text-2xl text-lg font-medium text-white tracking-widest">
+                            with <span class="4xl:text-11xl 3xl:text-10xl 2xl:text-9.5xl xl:text-9xl lg:text-8xl md:text-7xl sm:text-6xl text-4xl font-bold uppercase text-green-d5ff40">fusionbody</span> gym
                         </p>       
                     </div>
-                    <div class="grid md:grid-cols-2 grid-cols-1 px-10 md:pb-10">
-                        <img src={{ asset ('img/1.png') }} alt="pict1" class="w-auto h-auto 2xl:h-512 2xl:w-960 object-cover rounded-xl">
+                    <div class="grid md:grid-cols-2 grid-cols-1 px-10 xl:py-4 lg:py-2 py-1">
+                        <div class="flex justify-center">
+                            <img src={{ asset ('img/1.png') }} alt="pict1" class="w-auto xl:h-300 md:h-200 h-auto object-fill rounded-xl">
+                        </div>
                         <div class="xl:px-16 md:px-12 px-6">
                             <div class="grid grid-rows-2 mx-auto max-w-xl text-left">
                                 <div>
-                                    <p class="font-opensans 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-lg md:text-start text-center text-lg font-light capitalize text-white break-words md:mt-0 mt-8">
+                                    <p class="font-opensans 2xl:text-3xl md:text-lg md:text-start text-center text-lg font-light capitalize text-white break-words md:mt-0 mt-4">
                                         A training center that blends cutting-edge technology, top-notch facilities, 
                                         and experienced trainers to help you reach your maximum potential
                                     </p>         
                                 </div>                                           
-                                <div class="2xl:mt-36 xl:mt-24 sm:mt-8 mt-10">
+                                <div class="2xl:mt-20 xl:mt-24 lg:mt-10 mt-5">
                                     <div class="md:flex-none md:justify-start flex justify-center">
-                                        <a href="#" class="font-barlow inline-flex items-center rounded-full md:w-full w-auto h-auto lg:px-6 lg:py-3 md:px-3 md:py-2 px-3 py-1.5 font-bold xl:text-4xl lg:text-3xl md:text-xl text-lg tracking-wide text-black-252525 bg-green-d5ff40 transform duration-200 hover:opacity-50">
+                                        <a href="#" class="font-barlow inline-flex items-center rounded-full md:w-full w-auto h-auto 2xl:px-6 2xl:py-3 md:px-3 md:py-2 px-3 py-1.5 font-bold 2xl:text-4xl md:text-xl text-lg tracking-wide text-black-252525 bg-green-d5ff40 transform duration-200 hover:opacity-50">
                                             <span class="pr-10 2xl:pr-64 xl:pr-40 md:pr-20 lg:pr-24"> Get Started </span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" id="arrow-circle-down" viewBox="0 0 24 24" class="lg:w-10 lg:h-10 w-7 h-7 -rotate-45">
+                                            <svg xmlns="http://www.w3.org/2000/svg" id="arrow-circle-down" viewBox="0 0 24 24" class="2xl:w-10 2xl:h-10 w-7 h-7 -rotate-45">
                                                 <path d="M0,12A12,12,0,1,0,12,0,12.013,12.013,0,0,0,0,12Zm22,0A10,10,0,1,1,12,2,10.011,10.011,0,0,1,22,12ZM13.121,6.293a1,1,0,0,0,0,1.414L16.413,11,6,11.007a1,1,0,1,0,0,2L16.414,13l-3.293,3.293a1,1,0,1,0,1.389,1.438l.025-.024,3.586-3.585a3,3,0,0,0,0-4.243h0L14.535,6.293A1,1,0,0,0,13.121,6.293Z"/>
                                             </svg>
                                         </a>
